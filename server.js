@@ -13,7 +13,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://extraordinary-chaja-c53e4c.netlify.app/",
     credentials: true,
   }),
 );
